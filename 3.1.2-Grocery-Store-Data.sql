@@ -1,10 +1,3 @@
-ALTER TABLE products ADD productColor VARCHAR(25);
-
-ALTER TABLE products DROP COLUMN productColor;
-
-INSERT INTO products(productName, productInventory, productPrice)
-    VALUES (‘Broccoli’, 17, 1.00), (‘Cabbage’, 15, .99);
-    
 -- Content for employees, departmentsm and deptEmployees
 INSERT INTO employees(employeeFName, employeeLName, employeeTitle) VALUES ('John', 'Smith', 'Manager');
 INSERT INTO employees(employeeFName, employeeLName, employeeTitle) VALUES ('Spencer', 'Jones', 'Dairy Manager');
